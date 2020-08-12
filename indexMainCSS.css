@@ -43,6 +43,7 @@ z-index: 99;
 
 .contentPage {
     margin: 0 20%;
+    background-color: rgba(192, 192, 192, 0.774);
 }
 
 .hiddenPage {
@@ -63,19 +64,17 @@ z-index: 99;
     }
     .bio-card {
         max-width: auto;
-    
     margin: .2em;
-        
         display: grid;
         grid-template-columns: auto auto;
     }
     .bio-card .content {
-        margin: 1em;
+        margin: 2em;
         word-spacing: .5em;
-        padding: 1em;
+        padding: 2em;
         line-height: 1.2em;
         font-size: 1.2em;
-        font-weight: 200;
+        font-weight: 600;
     }
     
     .bio-pic {
@@ -87,6 +86,18 @@ z-index: 99;
     -moz-box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.75);
     border: solid grey 1px;
-    
     }
+
+    .bio-pic:hover {
+        cursor: pointer;
+        transition: .2s;
+        width: 15em;
+        height: 15em;
+        margin: 4em 4em 5em 4em;
+        border-radius: 4em;
+        -webkit-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.75);
+        border: solid grey 1px;
+        }
     

@@ -8,6 +8,8 @@ var btns = document.getElementsByClassName("contentPage")
 var navBarMain = document.getElementById("_navBar-main")
 var sticky = navBarMain.offsetTop
 
+
+
 window.onscroll = function myFunction1() {
     if (window.pageYOffset >= sticky) {
         navBarMain.classList.add("sticky")
@@ -16,6 +18,9 @@ window.onscroll = function myFunction1() {
     }
 }
 
+window.onload = function() {
+    aboutPage.classList.remove("hiddenPage")
+}
 
 function showContent(e) {
 /*Iterate through contentPages*/
