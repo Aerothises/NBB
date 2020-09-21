@@ -1,0 +1,160 @@
+
+
+html, * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: auto;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    display: inline-flexbox;
+    cursor: default;
+    color: #333;
+}
+body {
+background-color: rgba(245, 245, 245, 0.384);
+background-image: url(mainIndexBGimg1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  }
+#navbar-top {
+
+    background-color: silver;
+    overflow: hidden;
+    z-index: 9;
+    position: sticky;
+    top: 0;
+}
+#header-banner {
+    height: 12em;
+    background-image: url(bannerMain.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+._navlink {
+    font-family: 'Raleway', sans-serif;
+
+    float: left;
+    padding: 1em 2em;
+    background-color: silver;
+border-bottom: 3px solid rgba(128, 128, 128, 0);
+font-size: 1.4em;
+font-weight: bold;
+}
+
+._navlink:hover {
+    background-color: rgb(206, 206, 206);
+    cursor: pointer;
+    border-bottom: 3px solid grey;
+
+}
+#body-sub1 {
+    margin: 0 15%;
+}
+
+#body-sub1 {
+    padding: .6em;
+}
+
+._container {
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+._card {
+border-radius: 3px;
+margin: 2em 0;
+padding: .6em;
+background-color: rgba(240, 240, 240, 0.932);
+}
+
+._card h2 {
+    color: whitesmoke;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    padding: .6em;
+}
+
+._card article {
+    display: grid;
+    grid-template-columns: auto 60%;
+    padding: 0 2em;
+    border-bottom: 1px solid #555;
+margin: 3em 0;
+}
+
+._card article img {
+height: 18em;
+width: auto;
+filter: grayscale(30%);
+margin: 10% 0 0 0;
+}
+._card article img:hover {
+    filter: grayscale(0%);
+    transition: .3s;
+}
+._card article h3 {
+    color: whitesmoke;
+    background-color: #333;
+    padding: .8em 1.4em;
+    overflow: hidden;
+    width: 60%;
+}
+._card article ._bio {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    padding: .8em 1.2em;
+}
+
+._bio-links {
+    overflow: hidden;
+}
+
+
+._bio-links li svg {
+    height: 2em;
+    fill: grey;
+    margin: 1em;
+    float: left;
+    display: block;
+}
+._bio-links li svg:hover {
+    fill: rgb(22, 22, 22);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 120px;
+  }
+  
+  .sidenav a {
+    padding:2em;
+    text-decoration: none;
+    font-size: 1.7em;
+    color: rgb(207, 207, 207);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #bebebe;
+  }
+  
+  .sidenav .closebtn {
+    position: relative;
+    font-size: 2em;
+    margin: 0;
+    padding: 0 48%;
+  }
